@@ -1,0 +1,55 @@
+﻿
+.fixednav{
+ position:fixed;
+ top:0px;
+ left:0px;
+ width:100%;
+ z-index:999999;
+}
+
+
+
+.fy{text-align:center;padding-top:20px}
+.fy a{display:inline-block;padding:4px 10px;border:1px solid #1dc0d8;margin:0 2px;color:#d75e15;text-decoration:none}
+.fy .ac{background:#3c9fee;border-color:#83c414;color:#fff}
+.fy a:hover{background:#3c9fee;border-color:#83c414;color:#fff}
+
+.newsline TD {
+	LINE-HEIGHT: 25px; BORDER-BOTTOM: #c9c9c9 1px dashed
+}
+.newsline TD A:link {
+	COLOR: #000
+}
+.newsline TD A:visited {
+	COLOR: #000
+}
+.newsline TD A:hover {
+	COLOR: #000
+}
+.newsline TD A:active {
+	COLOR: #000
+}
+
+.parBd  ul    :hover {  transform: scale(1.04, 1.04);}
+
+.button, button, input[type="submit"], input[type="button"], input[type="reset"] {
+	display: inline-block;
+	padding: 9px 15px 8px;
+	background:#FF3333;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	font-weight: 800;
+	
+	border: 0;
+}
+.button:hover, .button:focus, button:hover, button:focus, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus {
+	outline: none;
+	cursor: pointer;
+	background: #272727;
+	color: #fff
+}
